@@ -76,7 +76,7 @@ executable(
 
 install_man('irqbalance.1')
 
-if systemd_dep.found()
+if systemd_dep.found() or get_option('systemd-service')
   pkgconfdir = get_option('pkgconfdir')
   usrconfdir = get_option('usrconfdir')
 

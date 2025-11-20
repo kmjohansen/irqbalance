@@ -10,6 +10,10 @@ option('systemd', type : 'feature', value: 'enabled',
   description : 'Build with systemd support',
 )
 
+option('systemd-service', type : 'boolean',
+  description : 'Install systemd service (true if systemd option is enabled)',
+)
+
 option('thermal', type : 'feature',
   description : 'Build with thermal support',
 )
