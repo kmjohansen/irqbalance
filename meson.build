@@ -1,5 +1,5 @@
 project('irqbalance', 'c',
-    version: '1.9.4',
+    version: '1.9.5',
     default_options: ['warning_level=1'],
     meson_version: '>=0.54.0',
 )
